@@ -212,3 +212,8 @@ top: 50%;
 transform: translateY(-50%);
 z-index: 1;
 }
+@media screen and (max-width: 480px) {
+  .navbar-brand{
+    width: 50%;
+  }
+}
